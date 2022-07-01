@@ -5,8 +5,14 @@
 clone the repo using git clone
 move into project folder and open terminal and type code . 
 or open with VSstudio 
-ensure liveserver is installed on Visual studio 
+ensure liveserver is installed on Visual studio
+hard code the token address into the bridge.js file line 1 const derobridge address and save
 open live server on index.html
+once you have launched all contracts on the dero bridge smart contract repo supplied by Ternton, you should be supplied with a token address, the token address is the address you use for the input field ERC20 on the API front end
+to use the front end sign into metamask, then click "connect metamask" button
+scroll down the page and click drop down menus to show details
+on ERC20 form input the token address given when you launched the DeroBridge Repo from trenton on testnet
+this ties this front end the DeroSmart contracts together 
 
 
 This frontend has been built using simple HTML, JS, CSS and some bootstrap styling
